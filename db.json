@@ -1,16 +1,203 @@
 {
-  "posts":[
+  "posts": [
     {
-      "id" : 0,
+      "id": 0,
       "title": "First post!",
-      "content" : "My first content!"
+      "content": "My first content!"
     }
   ],
-  "comments" : [
+  "comments": [
     {
       "id": 0,
       "content": "Wow such content!",
       "username": "zero_cool"
+    }
+  ],
+  "usermanagement": [
+    {
+      "id": 1,
+      "nik": "123",
+      "name": "Ar-Ridho Gusti",
+      "is_active": true
+    },
+    {
+      "id": 3,
+      "nik": "789",
+      "name": "Butet",
+      "is_active": false
+    },
+    {
+      "id": 4,
+      "nik": "012",
+      "name": "Eri",
+      "is_active": true
+    },
+    {
+      "id": 5,
+      "nik": "345",
+      "name": "Aris",
+      "is_active": false,
+      "jobtitle": "aaoeu",
+      "role": 2,
+      "branch": "aoeu"
+    },
+    {
+      "id": 6,
+      "nik": "6789",
+      "name": "Bambang",
+      "jobtitle": "aoeu",
+      "role": 3,
+      "branch": "aoeuou",
+      "is_active": true
+    },
+    {
+      "is_active": true,
+      "description": "aeu",
+      "intro": "oeua",
+      "title": "aoeu",
+      "id": 7
+    }
+  ],
+  "ownermanagement": [
+    {
+      "customer_number": "1234",
+      "customer_name": "randi sani",
+      "country": "indonesia",
+      "address": "",
+      "city": "",
+      "postal_code": "",
+      "state": "",
+      "province": "",
+      "primary_phone_number": "",
+      "primary_phone_area_code": "",
+      "branch_code": "",
+      "customer_type": 2,
+      "customer_class_code": 0,
+      "is_active": true,
+      "external_user": [
+        {
+          "user_id": "",
+          "customer_number": "1234",
+          "fullname": "randi sani",
+          "user_name": "",
+          "email": "",
+          "user_type": 0,
+          "password": "",
+          "is_active": true
+        },
+        {
+          "customer_number": "1234",
+          "fullname": "ricky",
+          "user_name": "",
+          "email": "",
+          "user_type": 1,
+          "password": "",
+          "is_active": true
+        },
+        {
+          "customer_number": "1234",
+          "fullname": "ovin",
+          "user_name": "",
+          "email": "",
+          "user_type": 1,
+          "password": "",
+          "is_active": true
+        }
+      ],
+      "customer_address": [
+        {
+          "customer_address_id": "321",
+          "customer_id": "1234",
+          "country": "malaysia",
+          "address": "",
+          "city": "",
+          "postal_code": "",
+          "state": "",
+          "province": "",
+          "primary_phone_number": "",
+          "primary_phone_area_code": "",
+          "contact_person": "",
+          "contact_phone_number": "",
+          "address_type": 0,
+          "oracle_bill_to_site_use_id": "",
+          "oracle_ship_to_site_use_id": "",
+          "order": "",
+          "is_active": true
+        },
+        {
+          "customer_address_id": "111",
+          "customer_id": "1234",
+          "country": "jepang",
+          "address": "",
+          "city": "",
+          "postal_code": "",
+          "state": "",
+          "province": "",
+          "primary_phone_number": "",
+          "primary_phone_area_code": "",
+          "contact_person": "",
+          "contact_phone_number": "",
+          "address_type": 0,
+          "oracle_bill_to_site_use_id": "",
+          "oracle_ship_to_site_use_id": "",
+          "order": "",
+          "is_active": true
+        },
+        {
+          "customer_address_id": "666",
+          "customer_id": "",
+          "country": "Korea",
+          "address": "",
+          "city": "",
+          "postal_code": "",
+          "state": "",
+          "province": "",
+          "primary_phone_number": "",
+          "primary_phone_area_code": "",
+          "contact_person": "",
+          "contact_phone_number": "",
+          "address_type": 1,
+          "oracle_bill_to_site_use_id": "",
+          "oracle_ship_to_site_use_id": "",
+          "order": "",
+          "is_active": true
+        }
+      ],
+      "id": 1
+    }
+  ],
+  "productmanagement": [],
+  "ordermanagement": [
+    {
+      "id": 1,
+      "status": 0,
+      "order_id": "029384D",
+      "user": "Roy Handoko",
+      "payment_method": "Credit Card",
+      "total": 1500000
+    },
+    {
+      "id": 2,
+      "status": 1,
+      "order_id": "24234B",
+      "user": "Roy Handoko",
+      "payment_method": "Bank Transfer",
+      "total": 1500000
+    }
+  ],
+  "termofservicemanagement": [
+    {
+      "id": 1,
+      "title": "Title 1",
+      "intro": "Intro 1",
+      "description": "Description 1"
+    },
+    {
+      "is_active": true,
+      "title": "title 2",
+      "intro": "intro 2",
+      "description": "sntoehu",
+      "id": 2
     }
   ]
 }
