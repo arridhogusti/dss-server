@@ -185,19 +185,9 @@
       "total": 1500000
     }
   ],
-  "termofservicemanagement": [
-    {
-      "id": 1,
-      "title": "Title 1",
-      "intro": "Intro 1",
-      "description": "Description 1"
-    },
-    {
-      "is_active": true,
-      "title": "title 2",
-      "intro": "intro 2",
-      "description": "sntoehu",
-      "id": 2
-    }
-  ]
+  "termofservicemanagement": {
+    "title": "Example Title",
+    "intro": "Example Intro",
+    "description": "Example Description"
+  }
 }
