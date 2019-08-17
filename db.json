@@ -20,6 +20,9 @@
       "name": "Ar-Ridho Gusti",
       "username": "arridhogusti",
       "password": "arridhogusti",
+      "job_title": "Programmer",
+      "role": 1,
+      "branch": "branch 1",
       "is_active": true
     }
   ],
