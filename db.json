@@ -18,44 +18,9 @@
       "id": 1,
       "nik": "123",
       "name": "Ar-Ridho Gusti",
+      "username": "arridhogusti",
+      "password": "arridhogusti",
       "is_active": true
-    },
-    {
-      "id": 3,
-      "nik": "789",
-      "name": "Butet",
-      "is_active": false
-    },
-    {
-      "id": 4,
-      "nik": "012",
-      "name": "Eri",
-      "is_active": true
-    },
-    {
-      "id": 5,
-      "nik": "345",
-      "name": "Aris",
-      "is_active": false,
-      "jobtitle": "aaoeu",
-      "role": 2,
-      "branch": "aoeu"
-    },
-    {
-      "id": 6,
-      "nik": "6789",
-      "name": "Bambang",
-      "jobtitle": "aoeu",
-      "role": 3,
-      "branch": "aoeuou",
-      "is_active": true
-    },
-    {
-      "is_active": true,
-      "description": "aeu",
-      "intro": "oeua",
-      "title": "aoeu",
-      "id": 7
     }
   ],
   "ownermanagement": [
