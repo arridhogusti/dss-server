@@ -256,5 +256,37 @@
     "title": "Example Title",
     "intro": "Example Intro",
     "description": "Example Description"
-  }
+  },
+  "orderDisplay": [
+    {
+      "id": 1,
+      "time": "2019-09-08 01:02:17",
+      "qr_code": "8388484",
+      "date_time": "2019-09-08T23:02:17",
+      "store_name": "Toko Mawar",
+      "name": "Roy Handoko",
+      "total": 610275,
+      "payment_method": "Dalam Proses"
+    },
+    {
+      "id": 2,
+      "time": "2019-09-08 00:02:25",
+      "qr_code": "9384939",
+      "date_time": "2019-09-08T15:02:17",
+      "store_name": "Toko Melati",
+      "name": "Roy Martin",
+      "total": 50000,
+      "payment_method": "Warehouse"
+    },
+    {
+      "id": 3,
+      "time": "2019-09-08 00:02:17",
+      "qr_code": "9384939",
+      "date_time": "2019-09-08T08:02:17",
+      "store_name": "Toko Kelapa",
+      "name": "Nanda",
+      "total": 982323,
+      "payment_method": "Pengiriman"
+    }
+  ]
 }
