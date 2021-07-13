@@ -13,6 +13,9 @@
   "author": "Jesper Orb",
   "license": "ISC",
   "dependencies": {
-    "json-server": "^0.12.1"
+    "json-server": "^0.12.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "uuid": "^3.4.0"
   }
 }

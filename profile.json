@@ -1,0 +1,88 @@
+{
+  "employee": [
+    {
+      "id": "5d0b2668-8754-4920-8e66-a50a5dc5c44c",
+      "name": "Tremayne Burdett",
+      "birthDay": "10/25/2020",
+      "address": "63556 Rockefeller Street",
+      "noHp": "363-468-1770",
+      "status": "Kawin",
+      "position": "Product Management",
+      "joinDate": "4/24/2020",
+      "email": "tburdett0@ifeng.com",
+      "webPage": "usda.gov"
+    },
+    {
+      "id": "c23e89f6-4f5d-4fdf-bf7d-87672939176c",
+      "name": "Elsbeth Remmer",
+      "birthDay": "5/1/2020",
+      "address": "8981 Portage Pass",
+      "noHp": "460-756-9909",
+      "status": "Belum Kawin",
+      "position": "Sales",
+      "joinDate": "10/26/2020",
+      "email": "eremmer1@howstuffworks.com",
+      "webPage": "go.com"
+    },
+    {
+      "id": "fa22f216-e2fd-4b3b-90e6-e7ae1fd64eb0",
+      "name": "Rossie Lowbridge",
+      "birthDay": "1/16/2021",
+      "address": "626 Michigan Hill",
+      "noHp": "996-597-0127",
+      "status": "Kawin",
+      "position": "Engineering",
+      "joinDate": "1/18/2021",
+      "email": "rlowbridge2@seattletimes.com",
+      "webPage": "wix.com"
+    },
+    {
+      "id": "f2c492e2-3fcc-4a88-8f55-74bff46dd8be",
+      "name": "Selig Duffin",
+      "birthDay": "10/1/2020",
+      "address": "8185 Lakewood Gardens Avenue",
+      "noHp": "320-143-5559",
+      "status": "Belum Kawin",
+      "position": "Marketing",
+      "joinDate": "1/9/2021",
+      "email": "sduffin3@multiply.com",
+      "webPage": "mapquest.com"
+    },
+    {
+      "id": "765339aa-01cd-494d-ad41-b9247b953070",
+      "name": "Cristiano Mathivon",
+      "birthDay": "4/11/2021",
+      "address": "4 Loftsgordon Trail",
+      "noHp": "580-356-6574",
+      "status": "Kawin",
+      "position": "Sales",
+      "joinDate": "5/29/2020",
+      "email": "cmathivon4@ameblo.jp",
+      "webPage": "aol.com"
+    }
+  ],
+  "employee-family": [
+    {
+      "id": 1,
+      "employeeId": "5d0b2668-8754-4920-8e66-a50a5dc5c44c",
+      "parentsName": "Keanu Reeves",
+      "spouse": "Helen Wick",
+      "numberOfChildren": "1",
+      "childName": "-"
+    }
+  ],
+  "employee-education": [
+    {
+      "id": 1,
+      "employeeId": "5d0b2668-8754-4920-8e66-a50a5dc5c44c",
+      "educationLevel": "S1",
+      "major": "S2",
+      "institution": "Universitas Raharja",
+      "dateFrom": "2000-01-31",
+      "dateThru": "2007-01-31",
+      "ipk": "5.00",
+      "location": "Jl. Jenderal Sudirman No.40, RT.002/RW.006, Cikokol, Kec. Tangerang, Kota Tangerang, Banten 15117",
+      "faculty": "Teknik Informatika"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Tremayne Burdett",
+      "email": "tburdett0@ifeng.com",
+      "password": "tburdett0",
+      "role": "employee",
+      "employeeId": "5d0b2668-8754-4920-8e66-a50a5dc5c44c"
+    },
+    {
+      "id": 2,
+      "name": "Elsbeth Remmer",
+      "email": "eremmer1@howstuffworks.com",
+      "password": "eremmer1",
+      "role": "employee",
+      "employeeId": "c23e89f6-4f5d-4fdf-bf7d-87672939176c"
+    },
+    {
+      "id": 3,
+      "name": "Rossie Lowbridge",
+      "email": "rlowbridge2@seattletimes.com",
+      "password": "rlowbridge2",
+      "role": "employee",
+      "employeeId": "fa22f216-e2fd-4b3b-90e6-e7ae1fd64eb0"
+    },
+    {
+      "id": 4,
+      "name": "Selig Duffin",
+      "email": "sduffin3@multiply.com",
+      "password": "sduffin3",
+      "role": "employee",
+      "employeeId": "f2c492e2-3fcc-4a88-8f55-74bff46dd8be"
+    },
+    {
+      "id": 5,
+      "name": "Cristiano Mathivon",
+      "email": "cmathivon4@ameblo.JP",
+      "password": "cmathivon4",
+      "role": "employee",
+      "employeeId": "765339aa-01cd-494d-ad41-b9247b953070"
+    },
+    {
+      "id": 6,
+      "name": "nilson",
+      "email": "nilson@email.com",
+      "password": "nilson",
+      "role": "sdm",
+      "employeeId": "4d0b2668-8754-4920-8e66-a50a5dc5c44c"
+    }
+  ]
+}

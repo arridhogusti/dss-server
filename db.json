@@ -1,312 +1,745 @@
 {
-  "posts": [
+  "employee": [
     {
-      "id": 0,
-      "title": "First post!",
-      "content": "My first content!"
+      "id": "5d0b2668-8754-4920-8e66-a50a5dc5c44c",
+      "employeeId": "5d0b2668-8754-4920-8e66-a50a5dc5c44c",
+      "name": "Tremayne Burdett",
+      "birthDay": "2020-05-02",
+      "address": "63556 Rockefeller Street",
+      "noHp": "363-468-1770",
+      "status": "Kawin",
+      "position": "Product Management",
+      "joinDate": "2021-05-01",
+      "email": "tburdett0@ifeng.com",
+      "webPage": "usda.gov"
+    },
+    {
+      "id": "c23e89f6-4f5d-4fdf-bf7d-87672939176c",
+      "employeeId": "c23e89f6-4f5d-4fdf-bf7d-87672939176c",
+      "name": "Elsbeth Remmer",
+      "birthDay": "2020-1-5",
+      "address": "8981 Portage Pass",
+      "noHp": "460-756-9909",
+      "status": "Belum Kawin",
+      "position": "Sales",
+      "joinDate": "2014-10-26",
+      "email": "eremmer1@howstuffworks.com",
+      "webPage": "go.com"
+    },
+    {
+      "id": "fa22f216-e2fd-4b3b-90e6-e7ae1fd64eb0",
+      "employeeId": "fa22f216-e2fd-4b3b-90e6-e7ae1fd64eb0",
+      "name": "Rossie Lowbridge",
+      "birthDay": "2021-01-16",
+      "address": "626 Michigan Hill",
+      "noHp": "996-597-0128",
+      "status": "Kawin",
+      "position": "Engineering",
+      "joinDate": "2014-01-19",
+      "email": "rlowbridge2@seattletimes.com",
+      "webPage": "uwix.com"
+    },
+    {
+      "id": "f2c492e2-3fcc-4a88-8f55-74bff46dd8be",
+      "name": "Selig Duffin",
+      "birthDay": "2020-10-01",
+      "address": "8185 Lakewood Gardens Avenue",
+      "noHp": "320-143-5559",
+      "status": "Belum Kawin",
+      "position": "Marketing",
+      "joinDate": "2014-01-09",
+      "email": "sduffin3@multiply.com",
+      "webPage": "mapquest.com"
+    },
+    {
+      "id": "765339aa-01cd-494d-ad41-b9247b953070",
+      "name": "Cristiano Mathivon",
+      "birthDay": "2021-04-11",
+      "address": "4 Loftsgordon Trail",
+      "noHp": "580-356-6574",
+      "status": "Kawin",
+      "position": "Sales",
+      "joinDate": "2015-05-29",
+      "email": "cmathivon4@ameblo.jp",
+      "webPage": "aol.com"
+    },
+    {
+      "id": "4d0b2668-8754-4920-8e66-a50a5dc5c44c",
+      "employeeId": "5d0b2668-8754-4920-8e66-a50a5dc5c44c",
+      "name": "Nilson",
+      "birthDay": "2020-05-02",
+      "address": "63556 Rockefeller Street",
+      "noHp": "363-468-1770",
+      "status": "Kawin",
+      "position": "Management",
+      "joinDate": "2021-05-01",
+      "email": "nilson@email.com",
+      "webPage": "usda.gov"
     }
   ],
-  "comments": [
-    {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
-    }
-  ],
-  "usermanagement": [
+  "employee-family": [
     {
       "id": 1,
-      "nik": "123",
-      "name": "Ar-Ridho Gusti",
-      "username": "arridhogusti",
-      "password": "arridhogusti",
-      "job_title": "Programmer",
-      "role": 1,
-      "branch": "branch 1",
-      "is_active": true
+      "employeeId": "5d0b2668-8754-4920-8e66-a50a5dc5c44c",
+      "parentsName": "Keanu Reeves oeu",
+      "spouse": "Helen Wick",
+      "numberOfChildren": "1",
+      "childName": "-"
     },
     {
       "id": 2,
-      "nik": "1234",
-      "name": "Name 1",
-      "username": "username 2",
-      "password": "password 2",
-      "job_title": "Job Title 2",
-      "role": 2,
-      "branch": "branch 2",
-      "is_active": false
+      "employeeId": "c23e89f6-4f5d-4fdf-bf7d-87672939176c",
+      "parentsName": "Warner Elderidge",
+      "spouse": "Jacquie Palia",
+      "numberOfChildren": 1,
+      "childName": "-"
     },
     {
       "id": 3,
-      "nik": "1334",
-      "name": "Name 3",
-      "username": "username 3",
-      "password": "password 3",
-      "job_title": "Job Title 3",
-      "role": 3,
-      "branch": "branch 3",
-      "is_active": false
+      "employeeId": "fa22f216-e2fd-4b3b-90e6-e7ae1fd64eb0",
+      "parentsName": "Lindsey Ralston",
+      "spouse": "Gerik Kayser",
+      "numberOfChildren": 2,
+      "childName": "-"
     },
     {
       "id": 4,
-      "nik": "1334",
-      "name": "Name 4",
-      "username": "username 4",
-      "password": "password 4",
-      "job_title": "Job Title 4",
-      "role": 4,
-      "branch": "branch 4",
-      "is_active": false
+      "employeeId": "f2c492e2-3fcc-4a88-8f55-74bff46dd8be",
+      "parentsName": "Odette Painter",
+      "spouse": "Clarey Illingworth",
+      "numberOfChildren": 3,
+      "childName": "-"
     },
     {
       "id": 5,
-      "nik": "1334",
-      "name": "Name 5",
-      "username": "username 5",
-      "password": "password 5",
-      "job_title": "Job Title 5",
-      "role": 1,
-      "branch": "branch 5",
-      "is_active": false
-    },
-    {
-      "id": 6,
-      "nik": "1334",
-      "name": "Name 6",
-      "username": "username 6",
-      "password": "password 6",
-      "job_title": "Job Title 6",
-      "role": 3,
-      "branch": "branch 6",
-      "is_active": false
-    },
-    {
-      "id": 7,
-      "nik": "1334",
-      "name": "Name 7",
-      "username": "username 7",
-      "password": "password 7",
-      "job_title": "Job Title 7",
-      "role": 1,
-      "branch": "branch 7",
-      "is_active": false
-    },
-    {
-      "id": 8,
-      "nik": "1334",
-      "name": "Name 8",
-      "username": "username 8",
-      "password": "password 8",
-      "job_title": "Job Title 8",
-      "role": 4,
-      "branch": "branch 8",
-      "is_active": false
-    },
-    {
-      "id": 9,
-      "nik": "1334",
-      "name": "Name 9",
-      "username": "username 9",
-      "password": "password 9",
-      "job_title": "Job Title 9",
-      "role": 1,
-      "branch": "branch 9",
-      "is_active": false
-    },
-    {
-      "id": 10,
-      "nik": "1334",
-      "name": "Name 10",
-      "username": "username 10",
-      "password": "password 10",
-      "job_title": "Job Title 10",
-      "role": 1,
-      "branch": "branch 10",
-      "is_active": false
+      "employeeId": "765339aa-01cd-494d-ad41-b9247b953070",
+      "parentsName": "Madelaine Beton",
+      "spouse": "Silas Atyea",
+      "numberOfChildren": 4,
+      "childName": "-"
     }
   ],
-  "ownermanagement": [
-    {
-      "customer_number": "1234",
-      "customer_name": "randi sani",
-      "country": "indonesia",
-      "address": "",
-      "city": "",
-      "postal_code": "",
-      "state": "",
-      "province": "",
-      "primary_phone_number": "",
-      "primary_phone_area_code": "",
-      "branch_code": "",
-      "customer_type": 2,
-      "customer_class_code": 0,
-      "is_active": true,
-      "external_user": [
-        {
-          "user_id": "",
-          "customer_number": "1234",
-          "fullname": "randi sani",
-          "user_name": "",
-          "email": "",
-          "user_type": 0,
-          "password": "",
-          "is_active": true
-        },
-        {
-          "customer_number": "1234",
-          "fullname": "ricky",
-          "user_name": "",
-          "email": "",
-          "user_type": 1,
-          "password": "",
-          "is_active": true
-        },
-        {
-          "customer_number": "1234",
-          "fullname": "ovin",
-          "user_name": "",
-          "email": "",
-          "user_type": 1,
-          "password": "",
-          "is_active": true
-        }
-      ],
-      "customer_address": [
-        {
-          "customer_address_id": "321",
-          "customer_id": "1234",
-          "country": "malaysia",
-          "address": "",
-          "city": "",
-          "postal_code": "",
-          "state": "",
-          "province": "",
-          "primary_phone_number": "",
-          "primary_phone_area_code": "",
-          "contact_person": "",
-          "contact_phone_number": "",
-          "address_type": 0,
-          "oracle_bill_to_site_use_id": "",
-          "oracle_ship_to_site_use_id": "",
-          "order": "",
-          "is_active": true
-        },
-        {
-          "customer_address_id": "111",
-          "customer_id": "1234",
-          "country": "jepang",
-          "address": "",
-          "city": "",
-          "postal_code": "",
-          "state": "",
-          "province": "",
-          "primary_phone_number": "",
-          "primary_phone_area_code": "",
-          "contact_person": "",
-          "contact_phone_number": "",
-          "address_type": 0,
-          "oracle_bill_to_site_use_id": "",
-          "oracle_ship_to_site_use_id": "",
-          "order": "",
-          "is_active": true
-        },
-        {
-          "customer_address_id": "666",
-          "customer_id": "",
-          "country": "Korea",
-          "address": "",
-          "city": "",
-          "postal_code": "",
-          "state": "",
-          "province": "",
-          "primary_phone_number": "",
-          "primary_phone_area_code": "",
-          "contact_person": "",
-          "contact_phone_number": "",
-          "address_type": 1,
-          "oracle_bill_to_site_use_id": "",
-          "oracle_ship_to_site_use_id": "",
-          "order": "",
-          "is_active": true
-        }
-      ],
-      "id": 1
-    }
-  ],
-  "productmanagement": [],
-  "ordermanagement": [
+  "employee-education": [
     {
       "id": 1,
-      "status": 0,
-      "order_id": "029384D",
-      "user": "Roy Handoko",
-      "payment_method": "Credit Card",
-      "total": 1500000
+      "employeeId": "5d0b2668-8754-4920-8e66-a50a5dc5c44c",
+      "educationLevel": "S1",
+      "major": "S2",
+      "institution": "Universitas Raharja",
+      "dateFrom": "2000-01-31",
+      "dateThru": "2007-01-31",
+      "ipk": "5.00",
+      "location": "Jl. Jenderal Sudirman No.40, RT.002/RW.006, Cikokol, Kec. Tangerang, Kota Tangerang, Banten 15117",
+      "faculty": "Teknik Informatika"
     },
     {
       "id": 2,
-      "status": 1,
-      "order_id": "24234B",
-      "user": "Roy Handoko",
-      "payment_method": "Bank Transfer",
-      "total": 1500000
+      "employeeId": "c23e89f6-4f5d-4fdf-bf7d-87672939176c",
+      "educationLevel": "S1",
+      "major": "S2",
+      "institution": "Universitas Raharja",
+      "dateFrom": "2000-01-31",
+      "dateThru": "2007-01-31",
+      "ipk": "5.00",
+      "location": "Jl. Jenderal Sudirman No.40, RT.002/RW.006, Cikokol, Kec. Tangerang, Kota Tangerang, Banten 15117",
+      "faculty": "Teknik Informatika"
+    },
+    {
+      "id": 3,
+      "employeeId": "fa22f216-e2fd-4b3b-90e6-e7ae1fd64eb0",
+      "educationLevel": "S1",
+      "major": "S2",
+      "institution": "Universitas Raharja",
+      "dateFrom": "2000-01-31",
+      "dateThru": "2007-01-31",
+      "ipk": "5.00",
+      "location": "Jl. Jenderal Sudirman No.40, RT.002/RW.006, Cikokol, Kec. Tangerang, Kota Tangerang, Banten 15117",
+      "faculty": "Teknik Informatika"
+    },
+    {
+      "id": 4,
+      "employeeId": "f2c492e2-3fcc-4a88-8f55-74bff46dd8be",
+      "educationLevel": "S1",
+      "major": "S2",
+      "institution": "Universitas Raharja",
+      "dateFrom": "2000-01-31",
+      "dateThru": "2007-01-31",
+      "ipk": "5.00",
+      "location": "Jl. Jenderal Sudirman No.40, RT.002/RW.006, Cikokol, Kec. Tangerang, Kota Tangerang, Banten 15117",
+      "faculty": "Teknik Informatika"
+    },
+    {
+      "id": 5,
+      "employeeId": "765339aa-01cd-494d-ad41-b9247b953070",
+      "educationLevel": "S1",
+      "major": "S2",
+      "institution": "Universitas Raharja",
+      "dateFrom": "2000-01-31",
+      "dateThru": "2007-01-31",
+      "ipk": "5.00",
+      "location": "Jl. Jenderal Sudirman No.40, RT.002/RW.006, Cikokol, Kec. Tangerang, Kota Tangerang, Banten 15117",
+      "faculty": "Teknik Informatika"
     }
   ],
-  "termofservicemanagement": {
-    "title": "Example Title",
-    "intro": "Example Intro",
-    "description": "Example Description"
-  },
-  "orderDisplay": [
+  "communication": [
     {
-      "date_time": "2019-10-09T23:02:17",
-      "id": 1,
-      "name": "Roy Handoko",
-      "payment_method": "Menunggu Pembayaran",
-      "qr_code": "8388484",
-      "store_name": "Toko Mawar",
-      "time": "2019-10-09 18:02:17",
-      "total": 610275
+      "employeeId": "c23e89f6-4f5d-4fdf-bf7d-87672939176c",
+      "authorId": "5d0b2668-8754-4920-8e66-a50a5dc5c44c",
+      "value": 4,
+      "id": "c54b330f-1899-40c1-bf72-e20b9434bb62"
     },
     {
-      "date_time": "2019-10-09T23:02:17",
-      "id": 1,
-      "name": "Roy Handoko",
-      "payment_method": "Dalam Proses",
-      "qr_code": "8388484",
-      "store_name": "Toko Mawar",
-      "time": "2019-10-09 18:02:17",
-      "total": 61027523492803482
+      "employeeId": "fa22f216-e2fd-4b3b-90e6-e7ae1fd64eb0",
+      "authorId": "5d0b2668-8754-4920-8e66-a50a5dc5c44c",
+      "value": 3,
+      "id": "10d130df-6454-4971-b8a3-a815f22bcf03"
     },
     {
-      "date_time": "2019-10-09T23:02:17",
-      "id": 1,
-      "name": "Roy Handoko",
-      "payment_method": "Pengiriman",
-      "qr_code": "8388484",
-      "store_name": "Toko Mawar",
-      "time": "2019-10-09 18:02:17",
-      "total": 610275
+      "employeeId": "f2c492e2-3fcc-4a88-8f55-74bff46dd8be",
+      "authorId": "5d0b2668-8754-4920-8e66-a50a5dc5c44c",
+      "value": 3,
+      "id": "dd7e48e1-8cbe-4ec3-a1c0-800ce86a4b09"
     },
     {
-      "date_time": "2019-10-09T23:02:17",
-      "id": 1,
-      "name": "Roy Handoko",
-      "payment_method": "Selesai",
-      "qr_code": "8388484",
-      "store_name": "Toko Mawar",
-      "time": "2019-10-09 18:02:17",
-      "total": 610275
+      "employeeId": "765339aa-01cd-494d-ad41-b9247b953070",
+      "authorId": "5d0b2668-8754-4920-8e66-a50a5dc5c44c",
+      "value": 3,
+      "id": "31260646-ebad-4377-bc41-135c4d5dddb0"
     },
     {
-      "date_time": "2019-10-09T23:02:17",
+      "employeeId": "5d0b2668-8754-4920-8e66-a50a5dc5c44c",
+      "authorId": "c23e89f6-4f5d-4fdf-bf7d-87672939176c",
+      "value": 3,
+      "id": "fb496527-fcd6-4df5-a35d-08d222f13fec"
+    },
+    {
+      "employeeId": "fa22f216-e2fd-4b3b-90e6-e7ae1fd64eb0",
+      "authorId": "c23e89f6-4f5d-4fdf-bf7d-87672939176c",
+      "value": 3,
+      "id": "e2b71c4c-4a22-439e-a065-9b4783f32aba"
+    },
+    {
+      "employeeId": "f2c492e2-3fcc-4a88-8f55-74bff46dd8be",
+      "authorId": "c23e89f6-4f5d-4fdf-bf7d-87672939176c",
+      "value": 3,
+      "id": "af2a5eb9-b71a-4a0d-8984-7714c33aaf94"
+    },
+    {
+      "employeeId": "765339aa-01cd-494d-ad41-b9247b953070",
+      "authorId": "c23e89f6-4f5d-4fdf-bf7d-87672939176c",
+      "value": 3,
+      "id": "b06050a0-8675-4575-b0bd-82b87e846dbb"
+    },
+    {
+      "employeeId": "5d0b2668-8754-4920-8e66-a50a5dc5c44c",
+      "authorId": "fa22f216-e2fd-4b3b-90e6-e7ae1fd64eb0",
+      "value": 3,
+      "id": "8f4492ee-f716-489c-92ac-c5aec14fcc73"
+    },
+    {
+      "employeeId": "c23e89f6-4f5d-4fdf-bf7d-87672939176c",
+      "authorId": "fa22f216-e2fd-4b3b-90e6-e7ae1fd64eb0",
+      "value": 4,
+      "id": "0cd1d897-ab7d-4c79-b8e6-12aa552a8038"
+    },
+    {
+      "employeeId": "f2c492e2-3fcc-4a88-8f55-74bff46dd8be",
+      "authorId": "fa22f216-e2fd-4b3b-90e6-e7ae1fd64eb0",
+      "value": 3,
+      "id": "7addec61-b5ea-48cb-8486-59226fd6dbd0"
+    },
+    {
+      "employeeId": "765339aa-01cd-494d-ad41-b9247b953070",
+      "authorId": "fa22f216-e2fd-4b3b-90e6-e7ae1fd64eb0",
+      "value": 3,
+      "id": "ed9b9172-553c-498b-9344-771505bb71f2"
+    },
+    {
+      "employeeId": "5d0b2668-8754-4920-8e66-a50a5dc5c44c",
+      "authorId": "f2c492e2-3fcc-4a88-8f55-74bff46dd8be",
+      "value": 3,
+      "id": "cb59469b-6e9e-4aa3-a1ec-aba18042d1f8"
+    },
+    {
+      "employeeId": "c23e89f6-4f5d-4fdf-bf7d-87672939176c",
+      "authorId": "f2c492e2-3fcc-4a88-8f55-74bff46dd8be",
+      "value": 4,
+      "id": "a67e3c0d-b0a0-4a0f-9814-31dbdc307882"
+    },
+    {
+      "employeeId": "fa22f216-e2fd-4b3b-90e6-e7ae1fd64eb0",
+      "authorId": "f2c492e2-3fcc-4a88-8f55-74bff46dd8be",
+      "value": 3,
+      "id": "a41e962b-01b9-4a8e-8b52-a95f638ad7cb"
+    },
+    {
+      "employeeId": "765339aa-01cd-494d-ad41-b9247b953070",
+      "authorId": "f2c492e2-3fcc-4a88-8f55-74bff46dd8be",
+      "value": 3,
+      "id": "4298af5a-1119-46c3-a54a-c4ec95490977"
+    },
+    {
+      "employeeId": "5d0b2668-8754-4920-8e66-a50a5dc5c44c",
+      "authorId": "765339aa-01cd-494d-ad41-b9247b953070",
+      "value": 3,
+      "id": "a03144d5-8af6-4a96-9f5b-86279950064f"
+    },
+    {
+      "employeeId": "c23e89f6-4f5d-4fdf-bf7d-87672939176c",
+      "authorId": "765339aa-01cd-494d-ad41-b9247b953070",
+      "value": 4,
+      "id": "b2930ef4-0c9b-4c88-b0ba-d20e518c7e21"
+    },
+    {
+      "employeeId": "fa22f216-e2fd-4b3b-90e6-e7ae1fd64eb0",
+      "authorId": "765339aa-01cd-494d-ad41-b9247b953070",
+      "value": 3,
+      "id": "95bbd11b-d2ad-4ffb-92d0-583750d3ea1c"
+    },
+    {
+      "employeeId": "f2c492e2-3fcc-4a88-8f55-74bff46dd8be",
+      "authorId": "765339aa-01cd-494d-ad41-b9247b953070",
+      "value": 3,
+      "id": "620e15a4-5c57-4266-97ed-04bcac60cac0"
+    }
+  ],
+  "initiative": [
+    {
+      "employeeId": "c23e89f6-4f5d-4fdf-bf7d-87672939176c",
+      "authorId": "5d0b2668-8754-4920-8e66-a50a5dc5c44c",
+      "value": 5,
+      "id": "38b222f4-5348-4a32-837b-4b95bed66230"
+    },
+    {
+      "employeeId": "fa22f216-e2fd-4b3b-90e6-e7ae1fd64eb0",
+      "authorId": "5d0b2668-8754-4920-8e66-a50a5dc5c44c",
+      "value": 4,
+      "id": "e7a99753-431e-4576-92ac-f994cdc9fbdd"
+    },
+    {
+      "employeeId": "f2c492e2-3fcc-4a88-8f55-74bff46dd8be",
+      "authorId": "5d0b2668-8754-4920-8e66-a50a5dc5c44c",
+      "value": 4,
+      "id": "f76e18a7-7e6f-4c2b-b366-d2eadb4495eb"
+    },
+    {
+      "employeeId": "765339aa-01cd-494d-ad41-b9247b953070",
+      "authorId": "5d0b2668-8754-4920-8e66-a50a5dc5c44c",
+      "value": 3,
+      "id": "8a2edfb2-b186-4a3d-afd4-9bcda6cdd1a2"
+    },
+    {
+      "employeeId": "fa22f216-e2fd-4b3b-90e6-e7ae1fd64eb0",
+      "authorId": "c23e89f6-4f5d-4fdf-bf7d-87672939176c",
+      "value": 4,
+      "id": "4bce62e9-c7c4-4fc3-a969-85019e9da78f"
+    },
+    {
+      "employeeId": "f2c492e2-3fcc-4a88-8f55-74bff46dd8be",
+      "authorId": "c23e89f6-4f5d-4fdf-bf7d-87672939176c",
+      "value": 4,
+      "id": "d9f4978b-b066-482a-ab3e-293ff9adc780"
+    },
+    {
+      "employeeId": "765339aa-01cd-494d-ad41-b9247b953070",
+      "authorId": "c23e89f6-4f5d-4fdf-bf7d-87672939176c",
+      "value": 3,
+      "id": "475f1454-eb1f-460a-b009-10ea0ca63fa7"
+    },
+    {
+      "employeeId": "5d0b2668-8754-4920-8e66-a50a5dc5c44c",
+      "authorId": "fa22f216-e2fd-4b3b-90e6-e7ae1fd64eb0",
+      "value": 2,
+      "id": "aed6f507-4499-4b00-8906-4134fa961784"
+    },
+    {
+      "employeeId": "c23e89f6-4f5d-4fdf-bf7d-87672939176c",
+      "authorId": "fa22f216-e2fd-4b3b-90e6-e7ae1fd64eb0",
+      "value": 5,
+      "id": "3da5f02c-9a10-4e80-8ea0-3b82fc0a1214"
+    },
+    {
+      "employeeId": "f2c492e2-3fcc-4a88-8f55-74bff46dd8be",
+      "authorId": "fa22f216-e2fd-4b3b-90e6-e7ae1fd64eb0",
+      "value": 4,
+      "id": "3872f06c-66f4-4dae-b267-e22e781f6ce8"
+    },
+    {
+      "employeeId": "765339aa-01cd-494d-ad41-b9247b953070",
+      "authorId": "fa22f216-e2fd-4b3b-90e6-e7ae1fd64eb0",
+      "value": 3,
+      "id": "33591826-dce9-464b-9e84-97b2b5b1ba8b"
+    },
+    {
+      "employeeId": "5d0b2668-8754-4920-8e66-a50a5dc5c44c",
+      "authorId": "f2c492e2-3fcc-4a88-8f55-74bff46dd8be",
+      "value": 2,
+      "id": "b7c25145-a910-4658-91d3-cc3ee0268bc7"
+    },
+    {
+      "employeeId": "c23e89f6-4f5d-4fdf-bf7d-87672939176c",
+      "authorId": "f2c492e2-3fcc-4a88-8f55-74bff46dd8be",
+      "value": 5,
+      "id": "e7219289-3730-4858-93e2-07f47b798fc3"
+    },
+    {
+      "employeeId": "fa22f216-e2fd-4b3b-90e6-e7ae1fd64eb0",
+      "authorId": "f2c492e2-3fcc-4a88-8f55-74bff46dd8be",
+      "value": 4,
+      "id": "a5fa0bc7-d960-4ca8-b97a-1b04b97cd083"
+    },
+    {
+      "employeeId": "765339aa-01cd-494d-ad41-b9247b953070",
+      "authorId": "f2c492e2-3fcc-4a88-8f55-74bff46dd8be",
+      "value": 3,
+      "id": "78dc772c-c852-4e0d-afdc-c9e28ea59de2"
+    },
+    {
+      "employeeId": "5d0b2668-8754-4920-8e66-a50a5dc5c44c",
+      "authorId": "765339aa-01cd-494d-ad41-b9247b953070",
+      "value": 2,
+      "id": "ad42f7c4-f94e-40df-8533-180117b84658"
+    },
+    {
+      "employeeId": "c23e89f6-4f5d-4fdf-bf7d-87672939176c",
+      "authorId": "765339aa-01cd-494d-ad41-b9247b953070",
+      "value": 5,
+      "id": "6a7fc1cd-380b-4b30-8201-304839a6b1ea"
+    },
+    {
+      "employeeId": "fa22f216-e2fd-4b3b-90e6-e7ae1fd64eb0",
+      "authorId": "765339aa-01cd-494d-ad41-b9247b953070",
+      "value": 4,
+      "id": "1c968e04-ebea-4a5f-848f-0e35f033280a"
+    },
+    {
+      "employeeId": "f2c492e2-3fcc-4a88-8f55-74bff46dd8be",
+      "authorId": "765339aa-01cd-494d-ad41-b9247b953070",
+      "value": 4,
+      "id": "658de742-9a0b-4897-8113-2c990bb6343d"
+    },
+    {
+      "employeeId": "5d0b2668-8754-4920-8e66-a50a5dc5c44c",
+      "authorId": "c23e89f6-4f5d-4fdf-bf7d-87672939176c",
+      "value": 2,
+      "id": "61e6941f-bced-4d6b-861b-27e98d8adfd6"
+    }
+  ],
+  "attitude": [
+    {
+      "employeeId": "c23e89f6-4f5d-4fdf-bf7d-87672939176c",
+      "authorId": "5d0b2668-8754-4920-8e66-a50a5dc5c44c",
+      "value": 5,
+      "id": "ca29623a-8c78-4764-962a-6cb01422992f"
+    },
+    {
+      "employeeId": "fa22f216-e2fd-4b3b-90e6-e7ae1fd64eb0",
+      "authorId": "5d0b2668-8754-4920-8e66-a50a5dc5c44c",
+      "value": 3,
+      "id": "2468ad59-0b0a-4863-a2a8-a9ce222ebe33"
+    },
+    {
+      "employeeId": "f2c492e2-3fcc-4a88-8f55-74bff46dd8be",
+      "authorId": "5d0b2668-8754-4920-8e66-a50a5dc5c44c",
+      "value": 4,
+      "id": "4f3d993a-bebe-4954-96ea-ca43c66dc158"
+    },
+    {
+      "employeeId": "765339aa-01cd-494d-ad41-b9247b953070",
+      "authorId": "5d0b2668-8754-4920-8e66-a50a5dc5c44c",
+      "value": 3,
+      "id": "6bf71f46-d501-4971-883e-a98f8097cca5"
+    },
+    {
+      "employeeId": "5d0b2668-8754-4920-8e66-a50a5dc5c44c",
+      "authorId": "c23e89f6-4f5d-4fdf-bf7d-87672939176c",
+      "value": 5,
+      "id": "3ab87dc9-1ae5-4ba9-ad6b-787019460d07"
+    },
+    {
+      "employeeId": "fa22f216-e2fd-4b3b-90e6-e7ae1fd64eb0",
+      "authorId": "c23e89f6-4f5d-4fdf-bf7d-87672939176c",
+      "value": 3,
+      "id": "5abe9705-52dd-4eb4-bc56-eade60d23692"
+    },
+    {
+      "employeeId": "f2c492e2-3fcc-4a88-8f55-74bff46dd8be",
+      "authorId": "c23e89f6-4f5d-4fdf-bf7d-87672939176c",
+      "value": 4,
+      "id": "a091f3de-1f60-4ce7-a305-2a1e8f140f4a"
+    },
+    {
+      "employeeId": "765339aa-01cd-494d-ad41-b9247b953070",
+      "authorId": "c23e89f6-4f5d-4fdf-bf7d-87672939176c",
+      "value": 3,
+      "id": "a5e34b7e-0fb4-42b4-ac82-12730e3e83a4"
+    },
+    {
+      "employeeId": "5d0b2668-8754-4920-8e66-a50a5dc5c44c",
+      "authorId": "fa22f216-e2fd-4b3b-90e6-e7ae1fd64eb0",
+      "value": 5,
+      "id": "fdafb5df-25cc-4de6-a6db-591ee7991cb6"
+    },
+    {
+      "employeeId": "c23e89f6-4f5d-4fdf-bf7d-87672939176c",
+      "authorId": "fa22f216-e2fd-4b3b-90e6-e7ae1fd64eb0",
+      "value": 5,
+      "id": "144b66d2-c96f-4544-b60e-24f403c1b5ef"
+    },
+    {
+      "employeeId": "f2c492e2-3fcc-4a88-8f55-74bff46dd8be",
+      "authorId": "fa22f216-e2fd-4b3b-90e6-e7ae1fd64eb0",
+      "value": 4,
+      "id": "94244e8f-2aea-47ba-afed-973892bb589c"
+    },
+    {
+      "employeeId": "765339aa-01cd-494d-ad41-b9247b953070",
+      "authorId": "fa22f216-e2fd-4b3b-90e6-e7ae1fd64eb0",
+      "value": 3,
+      "id": "9fb3cc6d-0545-4fbf-bfc1-4bebabea59ea"
+    },
+    {
+      "employeeId": "5d0b2668-8754-4920-8e66-a50a5dc5c44c",
+      "authorId": "f2c492e2-3fcc-4a88-8f55-74bff46dd8be",
+      "value": 5,
+      "id": "43aa817e-80a7-46e5-b399-be6358b928e0"
+    },
+    {
+      "employeeId": "c23e89f6-4f5d-4fdf-bf7d-87672939176c",
+      "authorId": "f2c492e2-3fcc-4a88-8f55-74bff46dd8be",
+      "value": 5,
+      "id": "a6754249-31fc-4552-933b-e376e710b836"
+    },
+    {
+      "employeeId": "fa22f216-e2fd-4b3b-90e6-e7ae1fd64eb0",
+      "authorId": "f2c492e2-3fcc-4a88-8f55-74bff46dd8be",
+      "value": 3,
+      "id": "c8bf26e9-c776-4879-a828-9cf966daa0b9"
+    },
+    {
+      "employeeId": "765339aa-01cd-494d-ad41-b9247b953070",
+      "authorId": "f2c492e2-3fcc-4a88-8f55-74bff46dd8be",
+      "value": 3,
+      "id": "bc854cc2-4ddb-4eca-8e32-9d694d46e215"
+    },
+    {
+      "employeeId": "5d0b2668-8754-4920-8e66-a50a5dc5c44c",
+      "authorId": "765339aa-01cd-494d-ad41-b9247b953070",
+      "value": 5,
+      "id": "e45b7137-0200-4037-874e-1e9dbb5e6429"
+    },
+    {
+      "employeeId": "c23e89f6-4f5d-4fdf-bf7d-87672939176c",
+      "authorId": "765339aa-01cd-494d-ad41-b9247b953070",
+      "value": 5,
+      "id": "31e2fbd5-3b1b-4a90-84e4-3cd8fdd9b0a1"
+    },
+    {
+      "employeeId": "fa22f216-e2fd-4b3b-90e6-e7ae1fd64eb0",
+      "authorId": "765339aa-01cd-494d-ad41-b9247b953070",
+      "value": 3,
+      "id": "20b6077d-a3a4-44e4-ae12-1484642d30e8"
+    },
+    {
+      "employeeId": "f2c492e2-3fcc-4a88-8f55-74bff46dd8be",
+      "authorId": "765339aa-01cd-494d-ad41-b9247b953070",
+      "value": 4,
+      "id": "0c9ef5b5-0326-45fc-acc1-08333c0c08a9"
+    }
+  ],
+  "attendance": [
+    {
+      "startDate": "2021-07-06",
+      "endDate": "2021-07-07",
+      "description": "Cuti",
       "id": 1,
-      "name": "Roy Handoko",
-      "payment_method": "Cancelled",
-      "qr_code": "8388484",
-      "store_name": "Toko Mawar",
-      "time": "2019-10-09 18:02:17",
-      "total": 610275
+      "authorId": "5d0b2668-8754-4920-8e66-a50a5dc5c44c",
+      "name": "Tremayne Burdett",
+      "totalDate": 2
+    },
+    {
+      "startDate": "2021-07-09",
+      "endDate": "2021-07-13",
+      "description": "Test CUti",
+      "authorId": "5d0b2668-8754-4920-8e66-a50a5dc5c44c",
+      "name": "Tremayne Burdett",
+      "id": 2,
+      "totalDate": 5
+    }
+  ],
+  "todo": [
+    {
+      "id": 1,
+      "authorId": "5d0b2668-8754-4920-8e66-a50a5dc5c44c",
+      "taskDueDate": "6/19/2021",
+      "taskName": "Toughjoyfax",
+      "name": "Emery Letcher",
+      "status": 1,
+      "description": "This is description"
+    },
+    {
+      "id": 2,
+      "authorId": "5d0b2668-8754-4920-8e66-a50a5dc5c44c",
+      "taskDueDate": "4/1/2021",
+      "taskName": "Lotstring",
+      "name": "Noreen Standingford",
+      "status": 1,
+      "description": "This is description"
+    },
+    {
+      "id": 3,
+      "authorId": "5d0b2668-8754-4920-8e66-a50a5dc5c44c",
+      "taskDueDate": "2/20/2021",
+      "taskName": "Tin",
+      "name": "Patsy Broomer",
+      "status": 1,
+      "description": "This is description"
+    },
+    {
+      "id": 4,
+      "authorId": "c23e89f6-4f5d-4fdf-bf7d-87672939176c",
+      "taskDueDate": "6/19/2021",
+      "taskName": "Toughjoyfax",
+      "name": "Emery Letcher",
+      "status": 1,
+      "description": "This is description"
+    },
+    {
+      "id": 5,
+      "authorId": "c23e89f6-4f5d-4fdf-bf7d-87672939176c",
+      "taskDueDate": "4/1/2021",
+      "taskName": "Lotstring",
+      "name": "Noreen Standingford",
+      "status": 1,
+      "description": "This is description"
+    },
+    {
+      "id": 6,
+      "authorId": "c23e89f6-4f5d-4fdf-bf7d-87672939176c",
+      "taskDueDate": "2/20/2021",
+      "taskName": "Tin",
+      "name": "Patsy Broomer",
+      "status": 1,
+      "description": "This is description"
+    },
+    {
+      "id": 7,
+      "authorId": "fa22f216-e2fd-4b3b-90e6-e7ae1fd64eb0",
+      "taskDueDate": "6/19/2021",
+      "taskName": "Toughjoyfax",
+      "name": "Emery Letcher",
+      "status": 1,
+      "description": "This is description"
+    },
+    {
+      "id": 8,
+      "authorId": "fa22f216-e2fd-4b3b-90e6-e7ae1fd64eb0",
+      "taskDueDate": "4/1/2021",
+      "taskName": "Lotstring",
+      "name": "Noreen Standingford",
+      "status": 1,
+      "description": "This is description"
+    },
+    {
+      "id": 9,
+      "authorId": "fa22f216-e2fd-4b3b-90e6-e7ae1fd64eb0",
+      "taskDueDate": "2/20/2021",
+      "taskName": "Tin",
+      "name": "Patsy Broomer",
+      "status": 0,
+      "description": "This is description"
+    },
+    {
+      "id": 10,
+      "authorId": "f2c492e2-3fcc-4a88-8f55-74bff46dd8be",
+      "taskDueDate": "6/19/2021",
+      "taskName": "Toughjoyfax",
+      "name": "Emery Letcher",
+      "status": 1,
+      "description": "This is description"
+    },
+    {
+      "id": 11,
+      "authorId": "f2c492e2-3fcc-4a88-8f55-74bff46dd8be",
+      "taskDueDate": "4/1/2021",
+      "taskName": "Lotstring",
+      "name": "Noreen Standingford",
+      "status": 1,
+      "description": "This is description"
+    },
+    {
+      "id": 12,
+      "authorId": "f2c492e2-3fcc-4a88-8f55-74bff46dd8be",
+      "taskDueDate": "2/20/2021",
+      "taskName": "Tin",
+      "name": "Patsy Broomer",
+      "status": 0,
+      "description": "This is description"
+    },
+    {
+      "id": 13,
+      "authorId": "765339aa-01cd-494d-ad41-b9247b953070",
+      "taskDueDate": "6/19/2021",
+      "taskName": "Toughjoyfax",
+      "name": "Emery Letcher",
+      "status": 1,
+      "description": "This is description"
+    },
+    {
+      "id": 14,
+      "authorId": "765339aa-01cd-494d-ad41-b9247b953070",
+      "taskDueDate": "4/1/2021",
+      "taskName": "Lotstring",
+      "name": "Noreen Standingford",
+      "status": 0,
+      "description": "This is description"
+    },
+    {
+      "id": 15,
+      "authorId": "765339aa-01cd-494d-ad41-b9247b953070",
+      "taskDueDate": "2/20/2021",
+      "taskName": "Tin",
+      "name": "Patsy Broomer",
+      "status": 0,
+      "description": "This is description"
+    }
+  ],
+  "criteria": [
+    {
+      "code": "c1",
+      "name": "Tanggung Jawab",
+      "bobot": 0.33,
+      "atribut": "benefit"
+    },
+    {
+      "code": "c2",
+      "name": "Kemampuan Komunikasi",
+      "bobot": 0.223,
+      "atribut": "benefit"
+    },
+    {
+      "code": "c3",
+      "name": "Inisiatif",
+      "bobot": 0.19,
+      "atribut": "benefit"
+    },
+    {
+      "code": "c4",
+      "name": "Kehadiran",
+      "bobot": 0.118,
+      "atribut": "benefit"
+    },
+    {
+      "code": "c5",
+      "name": "Working Age",
+      "bobot": 0.083,
+      "atribut": "benefit"
+    },
+    {
+      "code": "c6",
+      "name": "Sikap",
+      "bobot": 0.057,
+      "atribut": "benefit"
     }
   ]
 }
